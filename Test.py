@@ -101,14 +101,18 @@ if uploaded_file is not None:
                     st.write("- Dựa trên các chỉ báo, có thể thấy xu hướng ngắn hạn của VNINDEX đang có dấu hiệu tích cực hơn so với trước đó. Đà giảm đã yếu đi và có thể xuất hiện một nhịp hồi phục nhẹ.")
                     st.write("- MACD cho thấy động lượng của thị trường đang dần phục hồi. Tuy nhiên, vẫn cần thêm thời gian để xác nhận xu hướng tăng bền vững.")
                     st.write("- Nếu VNINDEX có thể vượt qua và giữ vững trên mức kháng cự gần nhất, có khả năng xu hướng tăng sẽ tiếp tục mạnh mẽ hơn.")
+                    st.markdown("### Dựa trên các thông tin hiện tại, VN-Index có tiềm năng tăng điểm trong ngắn hạn.")
                 elif indicator[0][:4] == "RSI":
                     st.write("- Xu hướng ngắn hạn của SSI đang có dấu hiệu tích cực với giá đóng cửa cao hơn MA20. Tuy nhiên, việc giá đóng cửa thấp hơn MA10 cho thấy có thể có một sự điều chỉnh nhẹ trong ngắn hạn.")
                     st.write("- RSI cho thấy đà tăng của cổ phiếu đang khá tốt, nhưng chưa quá mạnh. Điều này cho thấy áp lực bán vẫn còn hiện hữu và có thể gây ra một số biến động giá trong ngắn hạn.")
                     st.write("- Nếu giá có thể vượt qua mức kháng cự 38.00 và giữ vững trên mức này, có khả năng xu hướng tăng sẽ tiếp tục mạnh mẽ hơn.")  
                     st.write("- Có thể xem xét mở vị thế mua nếu giá vượt qua mức kháng cự 38.00 và đặt lệnh cắt lỗ dưới mức hỗ trợ MA20.")
+                    st.markdown("### Dựa trên các chỉ số kỹ thuật đã cho, khả năng cổ phiếu SSI tăng giá trong ngắn hạn là khá cao.")
+
                 else:
                     st.write("-  Giá đóng cửa đang cao hơn cả MA20 và MA10, cho thấy xu hướng ngắn hạn đang nghiêng về phía tăng. Điều này đồng nghĩa với việc giá hiện tại đang được hỗ trợ bởi các mức trung bình động.")
                     st.write("- Xu hướng ngắn hạn của SSI đang khá tích cực. Việc giá vượt qua cả MA20 và MA10 cho thấy lực mua đang chiếm ưu thế.")
                     st.write("- Nếu giá giao dịch quanh vùng 39.00 và không thể tạo ra một đột phá mới, thị trường có thể sẽ đi ngang hoặc có một số biến động ngắn hạn.")
+                    st.markdown("### Dựa trên các chỉ số kỹ thuật đã cho, khả năng cổ phiếu SSI tăng giá trong ngắn hạn là khá cao.")
     except Exception as e:
         st.error(f"Lỗi: {e}")
