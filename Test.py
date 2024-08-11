@@ -95,7 +95,7 @@ if uploaded_file is not None:
             else:
                 st.write("")
             
-            forecast = st.button("**Dự đoán xu hướng**")
+            forecast = st.button("**Phân tích và dự đoán**")
             if forecast:
                 if indicator[0] == "MACD":
                     st.write("- Dựa trên các chỉ báo, có thể thấy xu hướng ngắn hạn của VNINDEX đang có dấu hiệu tích cực hơn so với trước đó. Đà giảm đã yếu đi và có thể xuất hiện một nhịp hồi phục nhẹ.")
