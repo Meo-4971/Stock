@@ -4,7 +4,7 @@ import pytesseract
 import cv2
 import numpy as np
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\tesseract.exe'
 
 st.title("StockTraders")
 
